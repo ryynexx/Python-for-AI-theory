@@ -133,3 +133,24 @@ sum_axis_1 = np.sum(my_matrix,axis = 1)
 print("sum of axis 1 (rows): ",sum_axis_1 )
 
 # understanding 
+
+my_array = np.array([1,2,3,4.5,6,7])
+#Reshaped the array to a 3x4 matrix
+reshaped_array = my_array.reshape(3,4)
+print(reshaped_array)
+
+#Reshaped the array to a 2x6 matrix
+reshaped_array = my_array.reshape(2,6)
+print(reshaped_array)
+
+#Reshaped the array to a 6x2 matrix
+reshaped_array = my_array.reshape(6,2)
+print(reshaped_array)
+
+#tryy = np.array([1,2,3])
+#print(tryy.reshape(2,2))
+
+# 2d to 1d
+array2 = np.array([[1,2,3],[3,4,5]])
+reshaped_array = array2.reshape(1)
+print(reshaped_array)
